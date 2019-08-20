@@ -1,0 +1,66 @@
+#page8 h3{
+	position: relative;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    font-size: 42px;
+    font-family: raleway;
+
+}
+#page8 p{
+	position: relative;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.9em;
+    font-weight: 500;
+    margin-top: 10px !important;
+    font-family: raleway;
+    max-width: 580px;
+    margin: 0 auto;
+}
+.container{
+	position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.clients-section {
+    position: relative;
+    padding: 80px 0px 80px;
+}
+.sec-title.centered {
+    text-align: center;
+}
+.sec-title {
+    position: relative;
+    margin-bottom: 65px;
+}
+.sec-title .text {
+    position: relative;
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.9em;
+    font-weight: 500;
+    margin-top: 10px !important;
+}.outer-container {
+    position: relative;
+    text-align: center;
+}
+@media only screen and (max-width: 800px){
+    #page8 h3{
+		font-size: 40px;
+	}
+	#page8 p{
+		font-size: 28px;
+    }
+}
+@media only screen and (max-width: 420px){
+    #page8 h3{
+		font-size: 26px;
+	}
+	#page8 p{
+		font-size: 16px;
+    }
+}

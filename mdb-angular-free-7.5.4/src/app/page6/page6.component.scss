@@ -1,0 +1,109 @@
+#page6{
+	position: relative;
+    padding: 90px 0px 100px;
+}
+.text6{
+	font-family: raleway;
+
+	/*position: relative;
+	top: 50px;*/
+	margin-top: 30px;
+	text-align: center;
+}
+.p6{
+	font-family: raleway;
+
+	text-transform: capitalize;
+	color:  #1b606b;
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.tab_button{
+	display: block;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.tab_button .btn1{
+	position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    cursor: pointer;
+    padding: 18px 56px;
+   border: 1px solid #1b606b;
+   background-color:#1b606b; 
+}
+
+.tab_button .btn2{
+	position: relative;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    cursor: pointer;
+    padding: 18px 56px;
+   border: 1px solid #1b606b;
+   margin-left: 2px;
+}
+.tab_button li:hover{
+	background-color: #1b606b;
+	color: white;
+}
+li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 1140px){
+
+.p6{
+    font-family: raleway;
+    font-size: 40px;
+}
+.tab_button {
+    width: 60%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .tab_button {
+        width: 44%;
+        }
+}
+
+@media only screen and (max-width: 768px){
+    .tab_button {
+        width: 60%;
+        }
+}
+@media only screen and (max-width: 420px){
+    #page6{
+        width: 100%;
+    }
+    .p6{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .tab_button {
+        width: 100%;
+        padding: 0;
+        }
+}
+@media only screen and (max-width: 375px){
+    .tab_button .btn1{
+        margin-top: 10px;
+        padding: 14px 34px;
+    }
+    .tab_button .btn2{
+        margin-top: 10px;        
+    padding: 14px 34px;
+    }
+    h2{
+        font-size: 24px;
+    }
+}

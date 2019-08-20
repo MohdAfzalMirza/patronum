@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "~animate.css/animate.css";
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+body{
+    font-family: raleway;
+}
+.text h1{
+	font-size: 42px;
+	font-weight: 600;
+}
+.text h2{
+	font-size: 38px;
+	font-weight: 400;
+}
+.text h5{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.text p{
+	font-size: 16px;
+}
+.btn-style-thirteen {
+    position: relative;
+    line-height: 24px;
+    color: #1b606b;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 41px 11px;
+    text-transform: capitalize;
+    background: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: 2px solid #1b606b;
+}
+
+.dcr{
+    position: relative;
+color: #666666;
+font-weight: 400;
+line-height: 1.9em;
+font-size: 16px;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+.t2 h1{
+	position: relative;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    font-size: 42px;
+}
+.t2 h1 span{
+	font-weight: 300;
+    display: block;
+}
+.bn:hover{
+	text-decoration: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: #1b606b;
+}
+
+// **************************RESPONSIVE*************************************************
+@media only screen and (max-width: 1140px){
+.btn-style-thirteen {
+    line-height: 50px;
+    font-size: 30px;
+    padding: 20px 41px 20px;
+    font-family: raleway;
+ }
+}

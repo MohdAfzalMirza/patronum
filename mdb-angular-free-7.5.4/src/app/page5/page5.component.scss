@@ -1,0 +1,119 @@
+#page5{
+    position: relative;
+        padding: 0px 100px 0px;
+        width: 100%;
+    }
+    .pos5{
+        font-family: raleway;
+        float: left;
+        padding-top: 165px;
+           margin-bottom: 50px;
+        
+        width: 50%;
+        text-align: justify;
+        float: left;
+        
+    }
+    .img5{
+        width: 50%;
+        float: left;
+        padding-left: 70px;
+            position: relative;
+            padding-right: 15px;
+            margin-bottom: 25px;
+            padding: 60px;
+    }
+    @media only screen and (max-width: 1140px){
+
+    .t2 p{
+		font-size: 30px;
+		font-family: 'Raleway',sans-serif;
+	}
+	.t2 h1, .pos4 h1{
+		font-size: 70px;
+		font-family: raleway;
+		font-weight: 600 !important;
+	}
+	.t2 h2{
+		font-size:65px !important;
+		font-weight: normal;
+		font-family: raleway;
+    }
+    .pos5{
+		width:100%;
+		clear: both;
+		margin-left: 5px;
+		margin-top: 0;
+		font-family: raleway;
+	}
+	.img5 {
+		float: none;
+		width: 100%;
+		
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#page5{
+		width: 100%;
+		padding: 110px 80px 0px;
+	}
+	.pos5{
+		font-family: raleway;
+		float: left;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		text-align: justify;
+	}
+	.t2 h1{
+		font-size: 65px;
+	}
+	.t2 h2{
+		font-size: 55px;
+	}
+	.t2 p{
+		font-size: 26px;
+		
+	}
+	.btn-style-thirteen {
+		line-height: 40px;
+		font-size: 26px;
+		padding: 16px 40px 16px;
+		font-family: raleway;
+	}
+}
+
+
+@media only screen and (max-width: 420px){
+	.pos5{
+		margin-bottom: 50px;
+	}
+	#page5{
+		padding: 0px 30px 0px;
+	}
+	.t2 h1{
+		font-size: 34px;
+	}
+	.t2 h1 span{
+		font-size: 25px;
+		
+	}
+	.t2 h2{
+		font-size: 30px;
+	}
+	.t2 p{
+		font-size: 16px;
+		
+	}
+	.btn-style-thirteen {
+		line-height: 18px;
+		font-size: 18px;
+		padding: 16px 30px 16px;
+		font-family: raleway;
+	}
+    .img5{
+        padding-left: 0px;
+        padding: 0px;
+    }
+}

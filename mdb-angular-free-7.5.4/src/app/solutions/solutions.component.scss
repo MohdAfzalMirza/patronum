@@ -1,0 +1,202 @@
+.pagetitle{
+    position: relative;
+    text-align: center;
+    background-size: cover !important;
+    padding: 230px 0px 180px;
+    background-position: center center !important;
+}
+.pagetitle:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.95;
+    background-image: -ms-linear-gradient(left, #1425F3 0%, #02adf3 100%);
+    background-image: -moz-linear-gradient(left, #1425F3 0%, #02adf3 100%);
+    background-image: -o-linear-gradient(left, #1425F3 0%, #02adf3 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #1425F3), color-stop(100, #02adf3));
+    background-image: -webkit-linear-gradient(left, #1425F3 0%, #02adf3 100%);
+    background-image: linear-gradient(to right, #1425F3 0%, #02adf3 100%);
+}
+
+
+.auto-container {
+    position: static;
+    max-width: 1250px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.pagetitle h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title h4{
+    text-align: center;
+    position: relative;
+    font-size: 38px;
+    padding: 80px 0;
+}
+
+// common
+h1{
+	position: relative;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    font-size: 42px;
+}
+h1 span{
+	font-weight: 300;
+    display: block;
+}
+.text p{
+    position: relative;
+    font-size: 17px;
+    // padding: 0px 0px 20px 0px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 1.9em;
+    text-align: justify;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+.btn-style-thirteen {
+    position: relative;
+    line-height: 24px;
+    color: #1b606b;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 41px 11px;
+    text-transform: capitalize;
+    background: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: 2px solid #1b606b;
+}
+.bn:hover{
+	text-decoration: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: #1b606b;
+}
+
+
+// pForIT
+.IT .text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    float: left;
+}
+.IT .img{
+    width: 50%;
+    float: left;
+    padding: 0 0 25px 90px;
+}
+
+
+// pForHR
+.HR{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.HR .img{
+    width: 50%;
+    float: left;
+}
+.HR .img .imgcol{
+    width: 80%;
+}
+.HR .text{
+    width: 50%;
+    float: left;
+}
+
+// pForMK
+.MR{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.MR .text{
+    padding-top:50px;
+    width: 50%;
+    float: left;
+}
+.MR .img{
+    width: 50%;
+    float: left;
+    padding-left: 90px;
+}
+.p1{
+    padding-bottom: 0 !important;
+}
+.p2{
+    margin-top: 0 !important;
+}
+
+
+// pForSL
+.SL{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.SL .img{
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+}
+.SL .text{
+    // padding-top:30px;
+    width: 50%;
+    float: left;
+}
+.SL .imgcol{
+    width: 90%;
+}
+
+// pForUR
+.UR{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.UR .text{
+    // padding-top:50px;
+    width: 50%;
+    float: left;
+}
+.UR .img{
+    width: 50%;
+    float: left;
+    padding-left: 90px;
+}
+.UR .imgcol{
+    width: 90%;
+}
+
+// pForEdu
+.EDU{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.EDU .img{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+.EDU .text{
+    padding-top:20px;
+    width: 50%;
+    float: left;
+}
+.EDU .imgcol{
+    width: 90%;
+}

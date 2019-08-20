@@ -1,0 +1,153 @@
+#page7 .table{
+	clear: both;
+	display: block;
+	position: relative;
+	width: 80%;
+	padding: 25px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table .column{
+	width: 25%;
+	float: left;
+	position: relative;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 70px 0px 50px;
+    border-radius: 5px 0px 0px 5px;
+    font-family: raleway;
+   }
+.table .column1{
+	width: 25%;
+	float: left;
+	position: relative;
+    margin-top: 192px;
+    padding: 70px 0px 50px;
+    background-color: #f9fafc;
+    border: 1px solid #ebebeb;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-box-shadow: 0px 15px 25px rgba(0,0,0,0.15);
+    -ms-box-shadow: 0px 15px 25px rgba(0,0,0,0.15);
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.15);
+    font-family: raleway;
+}
+.column ul li, .column1 ul li{
+	
+	list-style-type: none;
+	padding: 21px 15px;
+	color: #666666;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+	border-bottom:1px solid #ebebeb;
+	font-family: raleway;
+	
+    
+}
+.title{
+	position: relative;
+    color: #8f95a8;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-family: raleway;
+}
+.price{
+	position: relative;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-family: raleway;
+}
+.price span{
+	color: #666666;
+    font-size: 18px;
+    display: block;
+    font-family: raleway;
+}
+.c3 .title{
+	color: #0745ff;
+}
+.c4 .title{
+	    color: #c107ff;
+}
+.btn-table {
+    position: relative;
+    line-height: 24px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 32px 15px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    letter-spacing: 1px;
+    border: 2px solid #e9eaee;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.bn:hover{
+	text-decoration: none !important;
+    outline: none !important;
+    color: white !important;
+    background-color: #1b606b;
+}
+
+@media only screen and (max-width: 800px){
+.table .column1{
+    display: none;
+}
+.table .column{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 23px;
+    font-family: raleway;
+    
+}
+.column ul li{
+    font-size: 28px;
+
+}
+.title{
+    font-size: 50px;
+
+}
+.price{
+    font-size: 80px;
+
+}
+.price span{
+    font-size: 30px;
+    padding-top: 21px;
+    
+
+}
+}
+
+@media only screen and (max-width: 420px){
+    .column ul li{
+        font-size: 18px;
+    
+    }
+    .title{
+        font-size: 28px;
+    
+    }
+    .price{
+        font-size: 60px;
+    
+    }
+    .price span{
+        font-size: 18px;
+        padding-top: 14px;
+        
+    
+    }
+}
